@@ -176,7 +176,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 80px;
+  min-width: 180px;
 }
 
 /**
@@ -234,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   color: #626262;
   white-space: nowrap;
   transition: 0.3s;
@@ -421,6 +422,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(60, 60, 60, 0.8);
   overflow: hidden;
   position: relative;
+ 
 }
 
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
@@ -438,6 +440,8 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  
+
 }
 
 #hero .container {
@@ -446,10 +450,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 50px;
-  border-top: 6px solid #12a19b;
+  border-top: groove 6px solid #12a19b;
   border-right: 6px solid #12a19b;
-  border-bottom: 6px solid#ed7555;
+  border-bottom: groove 6px solid#ed7555;
   border-left: 6px solid #ed7555;
+  border-radius: 12rem;
 }
 
 @media (max-width: 1200px) {
@@ -1645,16 +1650,23 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+#footer .footer-top .container .row .col-md-8-logos .logos{
+  float: left;
+  margin: 1px black;
+  margin-bottom: 4px black;
+}
 #footer {
-  background: #eeeeee;
+  background: #e08b73;
   padding: 0 0 30px 0;
   color: #555555;
   font-size: 14px;
+  border-radius: 1em;
 }
 
 #footer .footer-top {
-  background: #f6f6f6;
+  background:  #12a19b;
   padding: 60px 0 30px 0;
+  border-radius: 1em;
 }
 
 #footer .footer-top .footer-info {
@@ -1677,7 +1689,7 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 30px;
   display: inline-block;
   background: #12a19b;
   color: #fff;
@@ -1689,6 +1701,7 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  
 }
 
 #footer .footer-top .social-links a:hover {
@@ -1785,3 +1798,5 @@ section {
   text-align: center;
   font-size: 13px;
 }
+
+

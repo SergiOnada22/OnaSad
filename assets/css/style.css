@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   ;
   color: #fff;
   height: 40px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
   z-index: 996;
   transition: all 0.5s;
@@ -422,6 +422,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(60, 60, 60, 0.8);
   overflow: hidden;
   position: relative;
+  margin-top: 50px;
  
 }
 
@@ -443,13 +444,13 @@ h1, h2, h3, h4, h5, h6 {
   
 
 }
-
+/*Cambiar margin del panel del carousel*/
 #hero .container {
   text-align: center;
   background: rgba(255, 255, 255, 0.9);
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   border-top: groove 6px solid #12a19b;
   border-right: 6px solid #12a19b;
   border-bottom: groove 6px solid#ed7555;
@@ -1656,7 +1657,7 @@ section {
   margin-bottom: 4px black;
 }
 #footer {
-  background: #e08b73;
+  background: #ffffff;
   padding: 0 0 30px 0;
   color: #555555;
   font-size: 14px;
